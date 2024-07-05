@@ -14,6 +14,7 @@ You can provide break time entries via the console or by using a file (`times.tx
 Open a terminal or command prompt in the project directory and run the application using .NET CLI:
 ```bash
 dotnet run
+exit
 
 ### Console Input
 
