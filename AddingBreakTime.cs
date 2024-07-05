@@ -1,14 +1,10 @@
-using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
 
 public class BreakTimeManager
 {
     private List<BreakTime> breakTimes = new List<BreakTime>(); // Private field for storing break times
 
-    // Public property to access breakTimes
-    public List<BreakTime> BreakTimes => breakTimes;
+    public List<BreakTime> BreakTimes => breakTimes; // Public property to access breakTimes
 
     public void AddBreakTime(string input)
     {

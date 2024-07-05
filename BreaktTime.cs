@@ -1,5 +1,3 @@
-using System;
-
 public class BreakTime
 {
     public TimeSpan StartTime { get; }
